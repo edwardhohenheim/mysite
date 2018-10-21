@@ -1,0 +1,5 @@
+{% extends 'login/base.html' %}
+{% block title %}首页{% endblock %}
+{% block content %}
+    <h1>欢迎 {{ request.session.user_name }} 回来!</h1>
+{% endblock %}
